@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347592121BBABCD2000C4060 /* BubbleSortVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 347592111BBABCD2000C4060 /* BubbleSortVC.m */; };
+		347592161BBAC0B8000C4060 /* SelectionSortVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 347592151BBAC0B8000C4060 /* SelectionSortVC.m */; };
 		34CD58391BB9DCD20083D708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD58381BB9DCD20083D708 /* main.m */; };
 		34CD583C1BB9DCD20083D708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CD583B1BB9DCD20083D708 /* AppDelegate.m */; };
 		34CD58441BB9DCD30083D708 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CD58431BB9DCD30083D708 /* Images.xcassets */; };
@@ -29,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		347592101BBABCD2000C4060 /* BubbleSortVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSortVC.h; sourceTree = "<group>"; };
+		347592111BBABCD2000C4060 /* BubbleSortVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSortVC.m; sourceTree = "<group>"; };
+		347592141BBAC0B8000C4060 /* SelectionSortVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionSortVC.h; sourceTree = "<group>"; };
+		347592151BBAC0B8000C4060 /* SelectionSortVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionSortVC.m; sourceTree = "<group>"; };
 		34CD58331BB9DCD20083D708 /* DSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CD58371BB9DCD20083D708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34CD58381BB9DCD20083D708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +73,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		347592131BBABCDB000C4060 /* BubbleSortVC */ = {
+			isa = PBXGroup;
+			children = (
+				347592101BBABCD2000C4060 /* BubbleSortVC.h */,
+				347592111BBABCD2000C4060 /* BubbleSortVC.m */,
+			);
+			name = BubbleSortVC;
+			sourceTree = "<group>";
+		};
+		347592171BBAC0C0000C4060 /* SelectionSortVC */ = {
+			isa = PBXGroup;
+			children = (
+				347592141BBAC0B8000C4060 /* SelectionSortVC.h */,
+				347592151BBAC0B8000C4060 /* SelectionSortVC.m */,
+			);
+			name = SelectionSortVC;
+			sourceTree = "<group>";
+		};
 		34CD582A1BB9DCD20083D708 = {
 			isa = PBXGroup;
 			children = (
@@ -131,8 +155,10 @@
 		34CD586B1BB9F0D70083D708 /* Data Structures and Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				347592131BBABCDB000C4060 /* BubbleSortVC */,
 				34CD586D1BBA0A390083D708 /* QueueVC */,
 				34CD586C1BBA0A220083D708 /* StackVC */,
+				347592171BBAC0C0000C4060 /* SelectionSortVC */,
 			);
 			name = "Data Structures and Algorithms";
 			sourceTree = "<group>";
@@ -257,8 +283,10 @@
 				34CD586A1BB9F0A90083D708 /* QueueVC.m in Sources */,
 				34CD585E1BB9DEC40083D708 /* MenuVC.m in Sources */,
 				34CD583C1BB9DCD20083D708 /* AppDelegate.m in Sources */,
+				347592161BBAC0B8000C4060 /* SelectionSortVC.m in Sources */,
 				34CD58391BB9DCD20083D708 /* main.m in Sources */,
 				34CD58671BB9EABA0083D708 /* BaseVC.m in Sources */,
+				347592121BBABCD2000C4060 /* BubbleSortVC.m in Sources */,
 				34CD58611BB9E3150083D708 /* StackVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

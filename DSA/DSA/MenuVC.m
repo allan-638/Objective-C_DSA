@@ -9,6 +9,8 @@
 #import "MenuVC.h"
 #import "StackVC.h"
 #import "QueueVC.h"
+#import "BubbleSortVC.h"
+#import "SelectionSortVC.h"
 
 @interface MenuVC ()
 
@@ -37,7 +39,7 @@
 // Calibrating UIPickerView
 - (void)setupPickerView {
     // Initialize Options Here
-    DSAArray = [NSMutableArray arrayWithObjects:@"STACK", @"QUEUE", @"DS 3", @"DS 4", @"DS 5", @"DS 6", nil];
+    DSAArray = [NSMutableArray arrayWithObjects:@"STACK", @"QUEUE", @"BUBBLE SORT", @"SELECTION SORT", @"DS 5", @"DS 6", nil];
     
     UIPickerView *optionPickerView = [UIPickerView new];
     optionPickerView.delegate = self;
@@ -64,7 +66,7 @@
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     // Insert Other View Controllers    
-    VCArray = [NSMutableArray arrayWithObjects:[StackVC new], [QueueVC new], nil];
+    VCArray = [NSMutableArray arrayWithObjects:[StackVC new], [QueueVC new], [BubbleSortVC new], [SelectionSortVC new], nil];
     [self.navigationController pushViewController:VCArray[row] animated:YES];
 }
 

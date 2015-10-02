@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#define ARRAY_SIZE 20000
 
 @interface BaseVC : UIViewController
 

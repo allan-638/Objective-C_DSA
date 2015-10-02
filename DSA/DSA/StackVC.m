@@ -19,6 +19,15 @@
 
 - (void)loadView {
     [super loadView];
+    
+    UILabel *label = [UILabel new];
+    label.text = @"SEE CONSOLE FOR DETAILS.";
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor blueColor];
+    label.font = [UIFont boldSystemFontOfSize:36];
+    label.numberOfLines = 0;
+    label.frame = self.view.bounds;
+    [self.view addSubview:label];
 
     self.title = @"Stack";
     stackArray = [NSMutableArray new];
